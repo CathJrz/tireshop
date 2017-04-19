@@ -4,4 +4,5 @@ class Inventory < ApplicationRecord
 #
 # def size_number?
 # wheel_size > 0
+belongs_to: user
 end
